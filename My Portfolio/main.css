@@ -1,0 +1,94 @@
+body {
+    background-color: darkgray;
+    font-family: "Arial", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    margin: 40px auto;
+    max-width: 1000px;
+    padding: 1em 15em 15em;
+}
+
+header nav ul li {
+    display: inline;
+    list-style: none;
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 0;
+    text-align: middle;
+}
+
+header a {
+    color: white;
+}
+
+header a:hover {
+    color: blue;
+}
+
+.image-link {
+    transition: filter 0.3s ease; /* Add a smooth transition effect */
+}
+
+.image-link:hover {
+    filter: brightness(1.2); /* Adjust brightness to change the color when hovering */
+}
+
+h1 {
+    color: black;
+    font-weight: 400;
+    line-height: 1.3;
+    font-family: "Verdana";
+}
+
+h2 {
+    color: black;
+    font-weight: 350;
+    line-height: 1.0;
+    font-size: 20px;
+    font-family: "Verdana";
+}
+
+h3 {
+    color: white;
+    font-weight: 500;
+    line-height: 0.7;
+    font-size: 18px;
+    font-family: "Verdana";
+    display: inline;
+    align-content: center;
+    margin-right: 250px;
+}
+
+main h3:hover {
+    color: blue;
+}
+
+.row
+{
+    margin-right: 10px;
+    display: flex;
+}
+
+.eight columns
+{
+    display: table-cell;
+    padding: 10px;
+    width: 100%;
+    align-content: center;
+}
+
+.twelve columns
+{
+    display: table-cell;
+    padding: 0;
+    width: 100%;
+    align-content: center;
+}
+
+.four columns
+{
+    display: table-cell;
+    padding 10px;
+    width: 100%;
+    align-content: center;
+}
